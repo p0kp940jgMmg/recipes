@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfForRecipes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfForRecipes"
+        mc:Ignorable="d"
+        Title="RnD Recipe Writer" Height="600" Width="625">
+    <Grid>
+        <Label Content="Receptnamn" HorizontalAlignment="Left" Margin="34,21,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,52,0,0" TextWrapping="Wrap" Text="Receptnamn" VerticalAlignment="Top" Width="437"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,94,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,94,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,94,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,124,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,124,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,124,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,154,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,154,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,154,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,184,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,184,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,184,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,214,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,214,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,214,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,244,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,244,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,244,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,274,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,274,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,274,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,304,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,304,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,304,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,334,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,334,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,334,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="34,364,0,0" TextWrapping="Wrap" Text="Ingrediens" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="178,364,0,0" TextWrapping="Wrap" Text="Mängd" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="334,364,0,0" TextWrapping="Wrap" Text="Enhet" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="119" Margin="34,418,0,0" TextWrapping="Wrap" Text="Tillvägagångsätt&#xD;&#xA;" VerticalAlignment="Top" Width="364" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Lägg till" HorizontalAlignment="Left" Margin="435,506,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
